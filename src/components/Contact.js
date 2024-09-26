@@ -152,6 +152,10 @@ const Button = styled.button`
   justify-content: center;
   align-items: center;
   gap: 10px;
+
+  @media screen and (max-width: ${breakpoints.lg}) {
+    width: 100%;
+  }
 `;
 
 const Contact = () => {
